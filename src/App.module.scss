@@ -1,5 +1,9 @@
-.wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-bottom: 20px;
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
 }
