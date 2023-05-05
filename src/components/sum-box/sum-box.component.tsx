@@ -18,7 +18,7 @@ export const SumBox = ({sum}: PropsType) => {
     setTextOfSum(text);
     if (sum) {
       text = await DisplayText<string>(
-        'Nasza najlepsza oferta dla ciebie to ' + sum.toString() + 'zł' + '☺️'
+        'Nasza najlepsza oferta dla ciebie to ' + sum.toString() + 'zł'
       );
       setTextOfSum(text);
     }

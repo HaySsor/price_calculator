@@ -42,7 +42,7 @@ export const ServiceBox = () => {
           })}
         </div>
       ) : (
-        <span className={styled.info}>Wybierz wpierw rok</span>
+        <span className={styled.info}>Wybierz rok</span>
       )}
     </>
   );

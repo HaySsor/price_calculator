@@ -1,7 +1,7 @@
 @use '../../assets/colors' as C;
 
 .summary {
-  border: 1px solid C.$white;
+  border: 1px solid C.$border;
   border-radius: 20px;
   width: 90%;
 
@@ -15,14 +15,14 @@
     align-items: center;
     .name {
       font-size: 1.5rem;
-      color: C.$white;
+      color: #333;
       width: 100%;
       text-align: center;
     }
     .price {
       width: 30%;
       font-size: 1.5rem;
-      color: C.$white;
+      color: white;
       padding: 5px;
       border-radius: 20px;
       text-align: center;

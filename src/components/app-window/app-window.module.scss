@@ -2,19 +2,21 @@
 
 .appWindow {
   .checkboxContainer {
-    background-color: C.$black;
+    background-color: C.$white;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     border-radius: 20px;
+    box-shadow: 0 10px 10px #33333355;
   }
   .summaryBox {
     margin-top: 30px;
     width: 100%;
-    background-color: C.$black;
+    background-color: C.$white;
     border-radius: 20px;
     padding: 20px;
+    box-shadow: 0 10px 10px #33333355;
   }
 }
 
