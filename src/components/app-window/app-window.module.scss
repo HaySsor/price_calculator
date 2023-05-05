@@ -1,0 +1,33 @@
+@use '../../assets/colors' as C;
+
+.appWindow {
+  .checkboxContainer {
+    background-color: C.$black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .summaryBox {
+    margin-top: 30px;
+    width: 100%;
+    background-color: C.$black;
+    border-radius: 20px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .appWindow {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .checkboxContainer {
+      width: 100%;
+    }
+  }
+}

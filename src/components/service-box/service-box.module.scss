@@ -1,0 +1,16 @@
+@use '../../assets//colors' as C;
+
+@media screen and (min-width: 1000px) {
+  .serviceBox {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info {
+    font-size: 3rem;
+    color: C.$lightGray;
+    text-align: center;
+  }
+}

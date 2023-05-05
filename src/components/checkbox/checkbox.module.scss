@@ -1,0 +1,13 @@
+@use '../../assets/colors' as C;
+@use '../../assets/checkbox' as M;
+
+.inputBox {
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  @include M.checkbox;
+}

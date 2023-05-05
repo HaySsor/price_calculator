@@ -1,0 +1,32 @@
+.sumBox {
+  position: absolute;
+  bottom: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  gap: 30px;
+  place-items: center;
+
+  .offerTitle {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    font-size: 1.5rem;
+    background-color: rgb(173, 230, 193);
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: rgb(77, 110, 77);
+      color: white;
+    }
+  }
+  .infoText{
+    font-size: 1.6rem;
+  }
+}

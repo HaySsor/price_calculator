@@ -1,0 +1,19 @@
+@use './assets/colors' as C;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  margin-top: 100px;
+  background-color: C.$lightblue;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 100px;
+}

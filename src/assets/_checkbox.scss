@@ -1,0 +1,44 @@
+@use './colors' as C;
+@mixin checkbox {
+  label {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+  }
+  input[type='checkbox'] {
+    position: relative;
+    cursor: pointer;
+  }
+  input[type='checkbox']:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -1px;
+    left: -1px;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    background-color: white;
+  }
+  input[type='checkbox']:checked:after {
+    content: '';
+    position: absolute;
+    display: flex;
+    top: 4px;
+    left: 4px;
+    width: 10px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: lightsalmon;
+  }
+  input[type='checkbox']:disabled:before {
+    border: 2px solid #cecece;
+    background-color: gray;
+    border-radius: 5px;
+  }
+  input[type='checkbox']:disabled ~ label {
+    color: gray;
+  }
+}

@@ -1,0 +1,40 @@
+@use '../../assets/colors' as C;
+
+.summary {
+  border: 1px solid C.$white;
+  border-radius: 20px;
+  width: 90%;
+
+  .priceBox {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .name {
+      font-size: 1.5rem;
+      color: C.$white;
+      width: 100%;
+      text-align: center;
+    }
+    .price {
+      width: 30%;
+      font-size: 1.5rem;
+      color: C.$white;
+      padding: 5px;
+      border-radius: 20px;
+      text-align: center;
+    }
+    .year2023 {
+      background-color: C.$priceColor1;
+    }
+    .year2024 {
+      background-color: C.$priceColor2;
+    }
+    .year2025 {
+      background-color: C.$priceColor3;
+    }
+  }
+}
